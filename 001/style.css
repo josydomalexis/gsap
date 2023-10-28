@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.heroSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.about {
+  background-color: blueviolet;
+  padding: 50px;
+  color: #fff;
+}
+
+.about>h2 {
+  font-weight: 1.5rem;
+  margin: 0 0 30px;
+}
+
+.about>p {
+  font-size: 3rem;
+  color: #ffffff10;
+}
+
+.about>p>span {
+  letter-spacing: -6px;
+}
+
+.about>p>span.whiteSpace {
+  letter-spacing: 8px !important;
+}
+
+.gallery {
+  background-color: yellowgreen;
+}
+
+
+.hero-text {
+  width: 300px;
+  position: absolute;
+  top: 300px;
+  left: 40px;
+}

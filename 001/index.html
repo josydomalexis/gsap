@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div data-scroll data-scroll-speed="-3" class="heroSection">
+        <div class="hero-text">
+          <h1>Hello Locomotive!</h1>
+          <h2>Fuck you ;)</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+            nihil facilis consequuntur. Sint voluptatum porro corporis animi.
+            Praesentium ea vitae quisquam, consequuntur delectus perferendis hic
+            possimus, quia inventore porro eveniet in necessitatibus nostrum
+            similique molestias.
+          </p>
+        </div>
+      </div>
+      <div class="section about">
+        <h2>
+          Why does my production build fail? (perhaps in webpack, vue-cli or
+          create-react-app)
+        </h2>
+        <p id="animationParagraph">
+          Modern build tools often use a process called tree shaking to remove
+          unused code. Sometimes they are over-aggressive and drop plugins due
+          to the fact that you didn't reference them anywhere in your own code.
+          To prevent this, you must explicitly register the plugin(s) using
+          gsap.registerPlugin
+        </p>
+      </div>
+      <div class="section gallery"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
